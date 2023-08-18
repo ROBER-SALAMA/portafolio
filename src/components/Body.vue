@@ -1,7 +1,7 @@
 <template>
-    <div class="z-0">
+    <body class="z-0">
         
-    </div>
+    </body>
 </template>
 
 <script lang="ts" setup>
@@ -9,9 +9,9 @@
 </script>
 
 <style lang="scss" scoped>
-    div {
-    width: 100wh;
-    height: 100vh;
+    body {
+    //width: 100wh;
+    height: 100vh; 
     background: linear-gradient(132deg, #454545, #900C3F, #FF6000 , #FFA559, #0000FF, #C70039);
     background-size: 400% 400%;
     animation: BackgroundGradient 25s ease infinite;

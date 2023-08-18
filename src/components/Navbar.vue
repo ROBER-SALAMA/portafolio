@@ -1,12 +1,12 @@
 <template>
-    <div class="nav z-10">
+    <div class="nav z-20">
   <input type="checkbox" id="nav-check">
-  <div class="nav-header z-10">
-    <div class="nav-title z-10 ">
+  <div class="nav-header z-20">
+    <div class="nav-title z-20 ">
       Rober.salama
     </div>
   </div>
-  <div class="nav-btn z-10">
+  <div class="nav-btn z-20">
     <label for="nav-check">
       <span></span>
       <span></span>
@@ -14,7 +14,7 @@
     </label>
   </div>
   
-  <div class="nav-links z-10">
+  <div class="nav-links z-20">
     <RouterLink to="/" >Home</RouterLink>
     <RouterLink to="/about">about</RouterLink>
     <RouterLink to="/contact">Contact</RouterLink>
@@ -34,7 +34,7 @@
   width: 100%;
   // background-color: transparent;
   background-color: #4d4d4d;
-  position: relative;
+   position: absolute;
 }
 
 .nav > .nav-header {
