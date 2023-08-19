@@ -1,59 +1,37 @@
 <template>
-    <!-- component -->
-    <!-- Container -->
-    <div class="flex flex-wrap min-h-screen w-full content-center justify-center bg-gray-200 py-10">
-
-        <!-- Login component -->
-        <div class="flex shadow-md">
-            <!-- Login form -->
-            <div class="flex flex-wrap content-center justify-center rounded-l-md bg-white"
-                style="width: 24rem; height: 32rem;">
-                <div class="w-72">
-                    <!-- Heading -->
-                    <h1 class="text-xl font-semibold">Welcome back</h1>
-                    <small class="text-gray-400">Welcome back! Please enter your details</small>
-
-                    <!-- Form -->
-                    <form class="mt-4">
-
-                        <div class="mb-3">
-                            <label class="mb-2 block text-xs font-semibold">Name</label>
-                            <input type="text" placeholder="Full name"
-                                class="block w-full rounded-md border border-gray-300 focus:border-purple-700 focus:outline-none focus:ring-1 focus:ring-purple-700 py-1 px-1.5 text-gray-500" />
-                        </div>
-
-                        <div class="mb-3">
-                            <label class="mb-2 block text-xs font-semibold">Email</label>
-                            <input type="email" placeholder="example@dominio.com"
-                                class="block w-full rounded-md border border-gray-300 focus:border-purple-700 focus:outline-none focus:ring-1 focus:ring-purple-700 py-1 px-1.5 text-gray-500" />
-                        </div>
-
-                        <div class="mb-3">
-                            <label class="mb-2 block text-xs font-semibold">Message</label>
-                            <textarea type="password" placeholder="Type your message"
-                                class="block w-full rounded-md border border-gray-300 focus:border-purple-700 focus:outline-none focus:ring-1 focus:ring-purple-700 py-1 px-1.5 text-gray-500" />
-                        </div>
-
-                        <br>
-                        <div class="mb-3">
-                            <button
-                                class="mb-1.5 block w-full text-center text-white bg-purple-700 hover:bg-purple-900 px-2 py-1.5 rounded-md">Sign
-                                in</button>
-                        </div>
-
-                    </form>
-
+    <div>
+        <!-- component -->
+        <!-- component -->
+        <div class="min-h-screen  flex flex-col justify-center sm:py-12">
+            <div class="p-10 xs:p-0 mx-auto md:w-full md:max-w-md">
+                <h1 class="font-bold text-center text-2xl mb-5">Contat me.</h1>
+                <div class="bg-slate-200 shadow w-full rounded-lg divide-y divide-gray-200">
+                    <div class="px-5 py-7">
+                        <form action="">
+                            <label class="font-semibold text-sm text-gray-600 pb-1 block">E-mail</label>
+                            <input type="text" class="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full"
+                                placeholder="example@dominio.com" />
+                            <label class="font-semibold text-sm text-gray-600 pb-1 block">Name</label>
+                            <input type="text" class="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full"
+                                placeholder="Full Name" />
+                            <label class="font-semibold text-sm text-gray-600 pb-1 block">Message</label>
+                            <textarea type="text" class="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full"
+                                placeholder="Type your message" />
+                            <button type="button"
+                                class="transition duration-200 bg-blue-500 hover:bg-blue-600 focus:bg-blue-700 focus:shadow-sm focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 text-white w-full py-2.5 rounded-lg text-sm shadow-sm hover:shadow-md font-semibold text-center inline-block">
+                                <span class="inline-block mr-2">Submit</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" class="w-4 h-4 inline-block">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
                 </div>
 
             </div>
-
-            <!-- Login banner -->
-            <div class="flex flex-wrap content-center justify-center rounded-r-md" style="width: 24rem; height: 32rem;">
-                <img class="w-full h-full bg-center bg-no-repeat bg-cover rounded-r-md" src="../../public/vite.svg">
-            </div>
-
         </div>
-
     </div>
 </template>
 
