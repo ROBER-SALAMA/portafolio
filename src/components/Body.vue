@@ -1,6 +1,5 @@
 <template>
-    <body class="z-0">
-        
+    <body class="z-0 w-full h-screen">
     </body>
 </template>
 
@@ -10,11 +9,10 @@
 
 <style lang="scss" scoped>
     body {
-    //width: 100wh;
-    height: 100vh; 
-    background: linear-gradient(132deg, #454545, #900C3F, #FF6000 , #FFA559, #0000FF, #C70039);
+    background: linear-gradient(132deg, #0f172a, #030001, #1e293b, #0a090a);
     background-size: 400% 400%;
-    animation: BackgroundGradient 25s ease infinite;
+    animation: BackgroundGradient 20s ease infinite;
+    position: relative;
 }
 
 @keyframes BackgroundGradient {
@@ -30,14 +28,6 @@
         background-position: 0% 50%;
     }
 }
-
-// @media (max-width: 768px) {
-//   body {
-//     height: 96vh;
-//   }
-
-
-// }
 
 
 </style>
