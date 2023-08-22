@@ -1,6 +1,4 @@
 import { createRouter, RouteRecordRaw, createWebHistory } from "vue-router";
-//? importamos los componentes
-// import NavbarVue from "./components/Navbar.vue";
 
 //? importamos las vista
 import HomeVue from "./pages/Home.vue";
