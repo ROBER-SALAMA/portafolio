@@ -1,5 +1,5 @@
 <template>
-    <body class="z-0 w-full h-screen">
+    <body class="w-full h-screen flex items-center justify-center z-0">
     </body>
 </template>
 
