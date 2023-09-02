@@ -1,6 +1,6 @@
 <template>
 
-    <div id="container" class="min-h-screen w-screen flex items-center justify-center z-20 absolute">
+    <div id="container" class="h-full w-full flex items-center justify-center z-20 absolute">
     <div class="w-full max-w-6xl rounded shadow-xl p-10 lg:p-20 mx-auto text-gray-800 md:text-left ">
         <div class="md:flex items-center -mx-10">
             <div class="w-full md:w-1/2 px-10 mb-10 md:mb-0">
@@ -36,10 +36,6 @@ h2 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: animate 10s linear infinite;
-}
-
-.container{
-    
 }
 
 @keyframes animate {

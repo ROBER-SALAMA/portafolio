@@ -1,39 +1,142 @@
 <template>
-  <!-- component -->
-<div class="flex h-screen flex-col items-center justify-center space-y-6 bg-gray-100 px-4 sm:flex-row sm:space-x-6 sm:space-y-0">
-        <div class="w-full max-w-sm overflow-hidden rounded-lg bg-slate-600 shadow-md duration-300 hover:scale-105 hover:shadow-xl">
-          <oh-vue-icon name='BiAwardFill' scale="4" animation="wrench" class="dark:text-white "></oh-vue-icon>
-          <h1 class="mt-2 text-center text-2xl font-bold text-gray-500">Success</h1>
-          <p class="my-4 text-center text-sm text-gray-500">Woah, successfully completed 3/5 Tasks</p>
-          
-        </div>
-        <div class="w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-xl">
-          <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto mt-8 h-16 w-16 text-red-500" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-          </svg>
-          <h1 class="mt-2 text-center text-2xl font-bold text-gray-500">Cancel</h1>
-          <p class="my-4 text-center text-sm text-gray-500">Just a small miss, 2/5 Tasks</p>
-          <div class="space-x-4 bg-gray-100 py-4 text-center">
-            <button class="inline-block rounded-md bg-red-500 px-10 py-2 font-semibold text-red-100 shadow-md duration-75 hover:bg-red-400">Cancel</button>
-            <button class="inline-block rounded-md bg-green-500 px-6 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-green-400">Try Again</button>
+  <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+  <link rel="stylesheet"
+    href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <section class=" bg-red-500">
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover" style="
+            background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80');
+          ">
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <h1 class="text-white font-semibold text-5xl">
+                Your story starts with us.
+              </h1>
+              <p class="mt-4 text-lg text-blueGray-200">
+                This is a simple example of a Landing Page you can build using
+                Notus JS. It features multiple CSS components based on the
+                Tailwind CSS design system.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-  <div class="w-auto h-64 p-5 flex flex-col bg-red-500 justify-center items-center">
-  <h3 class="text-lg sm:text-xl md:text-2xl text-black mb-8 text-center dark:text-white">Technologies</h3>
-  <div class="flex flex-row flex-5 p-3 m-3 justify-center items-center">
-    <oh-vue-icon name='la-html5' scale="4" animation="wrench" class="dark:text-white mx-auto my-auto"></oh-vue-icon>
-    <oh-vue-icon name='la-css3-alt' scale="4" animation="wrench" class="dark:text-white mx-auto my-auto"></oh-vue-icon>
-    <oh-vue-icon name='fa-js' scale="4" animation="wrench" class="dark:text-white mx-auto my-auto"></oh-vue-icon>
-    <oh-vue-icon name='co-react' scale="4" animation="wrench" class="dark:text-white mx-auto my-auto"></oh-vue-icon>
-    <oh-vue-icon name='co-vue-js' scale="4" animation="wrench" class="dark:text-white mx-auto my-auto"></oh-vue-icon>
-
-  </div>
-</div>
+      <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
+        style="transform: translateZ(0px)">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+    <section class="pb-10 bg-blueGray-200 -mt-24">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                  <i class="fas fa-award"></i>
+                </div>
+                <h6 class="text-xl font-semibold">HTML</h6>
+                <p class="mt-2 mb-4 text-blueGray-500">
+                  Divide details about your product or agency work into parts.
+                  A paragraph describing a feature will be enough.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
+                  <i class="fas fa-retweet"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Java Script</h6>
+                <p class="mt-2 mb-4 text-blueGray-500">
+                  Keep you user engaged by providing meaningful information.
+                  Remember that by this time, the user is curious.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                  <i class="fas fa-fingerprint"></i>
+                </div>
+                <h6 class="text-xl font-semibold">CSS</h6>
+                <p class="mt-2 mb-4 text-blueGray-500">
+                  Write a few lines about each one. A paragraph describing a
+                  feature will be enough. Keep you user engaged!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                  <i class="fas fa-award"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Git</h6>
+                <p class="mt-2 mb-4 text-blueGray-500">
+                  Divide details about your product or agency work into parts.
+                  A paragraph describing a feature will be enough.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
+                  <i class="fas fa-retweet"></i>
+                </div>
+                <h6 class="text-xl font-semibold">VUE</h6>
+                <p class="mt-2 mb-4 text-blueGray-500">
+                  Keep you user engaged by providing meaningful information.
+                  Remember that by this time, the user is curious.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                  <i class="fas fa-fingerprint"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Tailwind</h6>
+                <p class="mt-2 mb-4 text-blueGray-500">
+                  Write a few lines about each one. A paragraph describing a
+                  feature will be enough. Keep you user engaged!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+    </section>
+  </section>
 </template>
 
 <script lang="ts" setup>
-  import OhVueIcon from '../plugins/oh-vue-icons';
+
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+  
+</style>
