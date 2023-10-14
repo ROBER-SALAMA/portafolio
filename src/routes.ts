@@ -3,6 +3,7 @@ import { createRouter, RouteRecordRaw, createWebHistory } from "vue-router";
 //? importamos las vista
 import HomeVue from "./pages/Home.vue";
 import AboutVue from "./pages/About.vue";
+// import ContactVue from "./pages/Contact.vue";
 import ContactVue from "./pages/Contact.vue";
 
 
