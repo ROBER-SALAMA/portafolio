@@ -15,9 +15,9 @@
     </div>
 
     <div class="nav-links z-20">
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">about</RouterLink>
-      <RouterLink to="/contact">Contact</RouterLink>
+      <a href="/">Home</a>
+      <a href="/about">about</a>
+      <a href="/contact">Contact</a>
     </div>
   </nav>
 </template>
@@ -70,57 +70,57 @@
   display: none;
 }
 
-// @media (max-width:600px) {
-//   .nav>.nav-btn {
-//     display: inline-block;
-//     position: absolute;
-//     right: 0px;
-//     top: 0px;
-//   }
+@media (max-width:600px) {
+  .nav>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
 
-//   .nav>.nav-btn>label {
-//     display: inline-block;
-//     width: 50px;
-//     height: 50px;
-//     padding: 13px;
-//   }
+  .nav>.nav-btn>label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
 
-//   .nav>.nav-btn>label:hover,
-//   .nav #nav-check:checked~.nav-btn>label {
-//     background-color: rgba(0, 0, 0, 0.3);
-//   }
+  .nav>.nav-btn>label:hover,
+  .nav #nav-check:checked~.nav-btn>label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 
-//   .nav>.nav-btn>label>span {
-//     display: block;
-//     width: 25px;
-//     height: 10px;
-//     border-top: 2px solid #eee;
-//   }
+  .nav>.nav-btn>label>span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
 
-//   .nav>.nav-links {
-//     position: absolute;
-//     display: block;
-//     width: 100%;
-//     background-color: #4d4d4d;
-//     height: 0px;
-//     transition: all 0.3s ease-in;
-//     overflow-y: hidden;
-//     top: 50px;
-//     left: 0px;
-//   }
+  .nav>.nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #4d4d4d;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
 
-//   .nav>.nav-links>a {
-//     display: block;
-//     width: 100%;
-//   }
+  .nav>.nav-links>a {
+    display: block;
+    width: 100%;
+  }
 
-//   .nav>#nav-check:not(:checked)~.nav-links {
-//     height: 0px;
-//   }
+  .nav>#nav-check:not(:checked)~.nav-links {
+    height: 0px;
+  }
 
-//   .nav>#nav-check:checked~.nav-links {
-//     height: calc(100vh - 50px);
-//     overflow-y: auto;
-//   }
-// }
+  .nav>#nav-check:checked~.nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
 </style>
