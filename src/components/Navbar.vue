@@ -15,9 +15,9 @@
     </div>
 
     <div class="nav-links z-20">
-      <a href="/">Home</a>
-      <a href="/about">about</a>
-      <a href="/contact">Contact</a>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">about</RouterLink>
+      <RouterLink to="/contact">Contact</RouterLink>
     </div>
   </nav>
 </template>
