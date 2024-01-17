@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-    import Navbar from '../components/Navbar.vue';
+    import Navbar from '../components/global/Navbar.vue';
     import AboutCard from '../components/AboutCard.vue';
 </script>
 

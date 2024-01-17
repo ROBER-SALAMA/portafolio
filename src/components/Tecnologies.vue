@@ -10,11 +10,11 @@
         <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
       <div class="container relative mx-auto">
-        <div class="items-center flex flex-wrap">
+        <div class="items-center flex ">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-            <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">
-                Your story starts with us.
+            <div class="">
+              <h1 class="text-white font-semibold text-5xl ">
+                if you can imagine it you can program it
               </h1>
               <p class="mt-4 text-lg text-blueGray-200">
                 This is a simple example of a Landing Page you can build using

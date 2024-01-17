@@ -8,7 +8,7 @@
 
 <script lang="ts" setup>
     import AboutForm from '../components/AboutForm.vue';
-import Navbar from '../components/Navbar.vue';
+import Navbar from '../components/global/Navbar.vue';
 </script>
 
 <style lang="scss" scoped>
